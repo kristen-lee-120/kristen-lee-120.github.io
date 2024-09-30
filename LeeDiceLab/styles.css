@@ -1,0 +1,84 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #9f9750;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:#EEEEEE;
+}
+
+h2, h3, h4 {
+  margin: 30px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white;
+  line-height: 200%;
+}
+
+p {
+  color: white;
+}
+
+.die{
+  padding-top: 0;
+}
+img {
+  width: 80%;
+  background-color: #ef1f1f00;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+img:hover{
+  background-color:#0f5413;
+}
+
+
+.myBtn {
+  margin: 30px;
+  transition: width, height 2s;
+  height: 40px;
+  width: 150px;
+}
+.myBtn:hover{
+  height: 55px;
+  width: 170px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* media queries */
+@media (min-width: 1030px){
+  .spacer{
+    padding-top: 20px;
+  }
+  .myBtn{
+    margin-top: 20px;
+  }
+  .die{
+    padding-top: 80px;
+  }
+}
