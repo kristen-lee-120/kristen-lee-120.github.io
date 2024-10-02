@@ -110,6 +110,7 @@ h1.welcome{
     position: relative;
     z-index: 2;
     margin-top: 60vh;
+    position: relative;
 
 }
 .icon-box{
@@ -200,6 +201,8 @@ p.description{
     background-color: #1450A3;
     text-align: center;
     color: #f7ede2;
+    position: relative;
+
 }
 .testimonial-image{
     border-radius: 50%;
@@ -218,8 +221,8 @@ p.description{
     background-color: white;  /* This should be a solid white */
     color: black;
     text-align: center;
-    z-index: 1;
-    opacity: 1;
+    /* z-index: 0; */
+    /* opacity: 1; */
     position: relative;
    
 }
@@ -262,6 +265,8 @@ a.email:hover{
     padding: 3% ;
     text-align: center;
     background-color:#191D88 ;
+    position: relative;
+
   
 }
 .social-icon{
