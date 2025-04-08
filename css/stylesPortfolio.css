@@ -1,0 +1,359 @@
+
+body{
+    background-color: white;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+  }
+
+h1{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 1.5;
+    letter-spacing: 10px;
+}
+h2{
+    font-family: Tenor Sans, sans-serif;
+    font-size: 1.5;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Tenor Sans', sans-serif;
+}
+p{
+    font-family: montserrat, sans-serif;
+    color: #8f8f8f;
+}
+/* Navigation bar */
+
+.nav{
+    width: 100%;
+    height: var(nav-height);
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+    z-index: 3;
+}
+
+/* .navbar{
+    padding: 0 0 4.5rem;
+
+} */
+.navbar-brand{
+    font-size: 2rem;
+    font-family: Fjalla One;
+    font-weight: lighter;
+    color: #674a40;
+}
+.navbar-brand:hover{
+    color: #fcaf38 ;
+} 
+
+.navbar-toggler{
+    color: #674a40;
+}
+
+
+.nav-link{
+    font-family: montserrat, sans-serif;
+    font-size: 1.2rem;
+    color: #674a40;
+    margin: 0 1em;
+}
+.nav-link:hover{
+    color: #fcaf38;
+}
+#navbarText{
+    font-size: 1rem;
+    font-family: Ubuntu;
+
+}
+
+.nav-hidden {
+    transform: translateY(-100px);
+
+}
+
+#title{
+    background-color: #ffffff;
+    /* background-image: url(../pictures/IMG_9970.png); */
+    color: #f95335;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+    /* z-index: 0;
+    position: fixed; */
+    /* top: 0; */
+    text-align: center;
+    width: 100%;
+    /* background-size: cover;  Ensure the image covers the entire section
+    background-position: center; */
+    
+}
+h1.welcome{
+    font-size: 500%;
+    text-transform: uppercase;
+    /* z-index: 1;
+    position: relative; */
+    text-align: center;
+}
+
+
+
+/* features */
+#projects{
+    /* padding: 7% 15%; */
+    background-color: #ffffff;
+    /* color: white; */
+    /* position: relative;
+    z-index: 2; */
+    /* margin-top: 60vh; */
+    display: block;
+
+}
+
+#projects h1{
+    color: #674a40;
+    font-size: 3rem;
+    padding-left: 3%
+}
+
+
+.icon-box{
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    padding: 3%;
+    background-color: #50a3a4;
+    color: white;
+}
+.weddingsc{
+    /* width: 100%; */
+    padding-bottom: 2%;
+}
+.dicesc{
+    /* width: 100%; */
+    padding-bottom: 2%;
+}
+
+.project_img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .click_img:hover .project_img {
+    opacity: 0.3;
+  }
+  
+  .click_img:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #FFC436;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+a.names{
+    color: white;
+}
+a.names:hover{
+    color: #FFC436;
+}
+.feature-box{
+ text-align: left;
+ font-family: Montserrat, sans-serif;
+ padding: 3%;
+ margin-bottom: 5%;
+ background-color: #50a3a4;
+
+}
+.figma-box{
+    width: 85%;               /* You can adjust this to whatever size you want */
+    margin-left: 0;        /* Pushes it to the right */
+    margin-right: auto;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    padding: 3%;
+    margin-bottom: 5%;
+    background-color: #f95335;
+    color: white;
+}
+
+/* .bridgets-box{
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+    padding: 3%;
+    background-color: #86a975;
+    color: white;
+    margin-left: 7%;
+} */
+
+.bridgets-box {
+    width: 85%;               /* You can adjust this to whatever size you want */
+    margin-left: auto;        /* Pushes it to the right */
+    margin-right: 0;
+    background-color: #86a975;
+    color: white;
+    padding: 3%;
+    margin-bottom: 5%;
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+  }
+
+p.description{
+    color: white;
+}
+.icon{
+    color: #84a59d;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #f5cac3;
+}
+.apps{
+    padding-bottom: 2%;
+}
+
+/* Testimontals */
+#testimonials{
+    background-color: #ffffff;
+    text-align: center;
+    color: #f7ede2;
+}
+.testimonial-image{
+    border-radius: 50%;
+    width: 10%;
+    margin: 10px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/* call to action section */
+
+#about{
+    padding: 7% 15%;
+    background-color: #ffffff;  /* This should be a solid white */
+    color: black;
+    text-align: center;
+    /* z-index: 1; */
+    /* opacity: 1;
+    position: relative; */
+   
+}
+.about-me-header{
+    font-family: Tenor Sans, sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 3%;
+}
+.about-me{
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    padding: 3%
+}
+.pfp{
+    border-radius: 50%;
+    width: 75%;
+    margin-bottom: 7%;
+    border-collapse: separate;
+}
+.email{
+    color: black;
+}
+a.email:hover{
+    color: #FFC436;
+}
+.download-button{
+    margin: 5%;
+    font-family: Montserrat;
+    text-align: center;
+}
+.download-button:hover{
+    color: #FFC436;
+}
+
+/* footer */
+#contact{
+    padding: 3% ;
+    text-align: center;
+    background-color:#ffffff ;
+  
+}
+.social-icon{
+    margin: 20px 10px;
+    color: #674a40;
+}
+.social-icon:hover{
+    color: #fcaf38;
+}
+
+/* media queries */
+@media (max-width: 1030px){
+    
+
+    .nav-hidden {
+        transform: translateY(-280px);
+    
+    }
+    #navbar-text{
+        text-align: center;
+    }
+    #title{
+        text-align: center;
+    }
+    #navbarText{
+        font-size: 1rem;
+        font-family: Ubuntu;
+        text-align: center;
+        /* background-color: rgb(212, 232, 255); */
+        width: 100%;
+    }
+    iframe{
+        width:100%;
+    }
+    .figma-box{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .bridgets-box{
+        width: 100%;
+    }
+
+    .feature-box{
+        margin-bottom: 0;
+    }
+  
+    
+}
