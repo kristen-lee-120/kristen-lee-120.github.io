@@ -3,6 +3,7 @@ body{
     background-color: white;
     overflow-x: hidden;
 }
+
 * {
     box-sizing: border-box;
   }
@@ -186,6 +187,8 @@ a.names{
 a.names:hover{
     color: #FFC436;
 }
+
+
 .feature-box{
  text-align: left;
  font-family: Montserrat, sans-serif;
